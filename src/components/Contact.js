@@ -43,6 +43,11 @@ const Contact = () => {
       <div className="text-center mb-3">
         <h2 className="text-primary">Contact Us</h2>
         <p className="lead">Reach out to us for any inquiries.</p>
+        <ul className="list-inline text-secondary">
+          <li className="list-inline-item">mshar234@my.centennialcollege.ca</li>
+          <span className="mx-2">|</span>
+          <li className="list-inline-item">416-276-4534</li>
+        </ul>
       </div>
 
       <div className="container">
