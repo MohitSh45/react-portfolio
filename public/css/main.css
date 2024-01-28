@@ -1,4 +1,19 @@
-/* app.css */
+/* fonts */
+@font-face {
+  font-family: 'Hind';
+  src: url('/fonts/Hind-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proza Libre';
+  src: url('/fonts/ProzaLibre-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* root colors */
 :root {
   /* Primary Colors */
   --primary-color-hex: #864622;
@@ -134,7 +149,7 @@ a {
 }
 
 /* nav */
-nav {
+nav{
   position: -webkit-sticky; /* For Safari */
   position: sticky;
   top: 0;
@@ -142,21 +157,16 @@ nav {
 /*  hero section */
 .hero {
   background-color: #f1ede4;
-  position: relative;
-  display: flex;
-  flex-direction: column;
+  background-image: url("images/coding.jpg");
 }
 
 .hero-content {
   padding: 20px 20px 20px 50px;
   max-width: 500px;
-  margin-bottom: 20px;
+
 }
 
 @media only screen and (min-width: 758px) {
-  .hero {
-    flex-direction: row;
-  }
   .hero-content {
     padding: 20px 20px 20px 50px;
     max-width: 55%;
@@ -187,25 +197,4 @@ nav {
 
 .hero-btn {
   margin: 0 10px;
-}
-
-.hero-image {
-  max-width: 300px;
-  border-radius: 20px;
-  margin: auto;
-}
-
-@media only screen and (min-width: 758px) {
-  .hero-image {
-    max-width: 40%;
-  }
-}
-
-
-.profile-pic{
-    object-fit: contain;
-    max-height: 340px;
-    margin: auto;
-    max-width: 95%;
-    border-radius: 20px;
 }
