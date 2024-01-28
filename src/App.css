@@ -189,7 +189,7 @@ nav {
 
 .hero-btns {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .hero-btn {
