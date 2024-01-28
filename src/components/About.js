@@ -1,3 +1,9 @@
+/* 
+   File: components/About.js
+   Author: Mohit Sharma
+   Student ID: 301297059
+   Date: January 28, 2024
+*/
 import React from "react";
 import me from "../assets/images/me.jpg";
 import { Link } from "react-router-dom";

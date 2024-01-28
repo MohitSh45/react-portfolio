@@ -1,3 +1,9 @@
+/* 
+   File: components/Services.js
+   Author: Mohit Sharma
+   Student ID: 301297059
+   Date: January 28, 2024
+*/
 import React from "react";
 import Card from "./Card";
 

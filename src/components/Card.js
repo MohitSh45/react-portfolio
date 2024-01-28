@@ -1,3 +1,9 @@
+/* 
+   File: components/Card.js
+   Author: Mohit Sharma
+   Student ID: 301297059
+   Date: January 28, 2024
+*/
 const Card = ({ icon, title, subTitle, description }) => {
   return (
     <div className="card bg-transparent">

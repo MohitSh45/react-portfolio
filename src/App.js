@@ -1,3 +1,9 @@
+/* 
+   File: App.js
+   Author: Mohit Sharma
+   Student ID: 301297059
+   Date: January 28, 2024
+*/
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./App.css";
 
